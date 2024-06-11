@@ -7,7 +7,6 @@
 [submodule "LG_AI_Controller_Saumya"]
 	path = LG_AI_Controller_Saumya
 	url = https://github.com/opena00/LG_AI_Controller_Saumya
-
 [submodule "earthquake_visualiser_ManasDalvi"]
 	path = earthquake_visualiser_ManasDalvi
 	url = https://github.com/opena00/earthquake_visualiser_ManasDalvi
