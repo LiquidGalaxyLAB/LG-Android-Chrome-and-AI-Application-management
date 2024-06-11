@@ -7,3 +7,6 @@
 [submodule "LG_AI_Controller_Saumya"]
 	path = LG_AI_Controller_Saumya
 	url = https://github.com/opena00/LG_AI_Controller_Saumya
+[submodule "LG-Flutter-Connection-Rofayda"]
+	path = LG-Flutter-Connection-Rofayda
+	url = https://github.com/opena00/LG-Flutter-Connection-Rofayda.git
