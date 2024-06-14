@@ -1,0 +1,186 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.sidharth.lg_motion.ui.settings.preference.ConnectionStatusPreference
+        android:key="connection_status"
+        android:layout="@layout/card_connection_status"
+        app:allowDividerAbove="false"
+        app:allowDividerBelow="false" />
+
+    <PreferenceCategory
+        android:key="connection_category"
+        android:title="@string/connection"
+        app:iconSpaceReserved="false">
+
+        <EditTextPreference
+            android:dialogTitle="@string/username_dialog_title"
+            android:key="username"
+            android:singleLine="true"
+            android:title="@string/username"
+            app:iconSpaceReserved="false"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            android:dialogTitle="@string/password_dialog_title"
+            android:inputType="textPassword"
+            android:key="password"
+            android:singleLine="true"
+            android:title="@string/password_title"
+            app:iconSpaceReserved="false"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            android:dialogTitle="@string/ip_dialog_title"
+            android:key="ip"
+            android:singleLine="true"
+            android:title="@string/ip_address"
+            app:iconSpaceReserved="false"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            android:dialogTitle="@string/port_dialog_title"
+            android:key="port"
+            android:singleLine="true"
+            android:title="@string/port_number"
+            app:iconSpaceReserved="false"
+            app:useSimpleSummaryProvider="true" />
+
+        <SeekBarPreference
+            android:key="screens"
+            android:max="10"
+            android:summary="@string/total_screens_summary"
+            android:title="@string/total_screens_title"
+            app:defaultValue="3"
+            app:iconSpaceReserved="false"
+            app:min="3"
+            app:seekBarIncrement="1"
+            app:showSeekBarValue="true" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="auto_connect"
+            android:summaryOff="@string/connection_method_summary_off"
+            android:summaryOn="@string/connection_method_summary_on"
+            android:title="@string/connection_method"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="liquid_galaxy_category"
+        android:title="@string/liquid_galaxy"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:key="connect"
+            android:summary="@string/connect_summary"
+            android:title="@string/connect"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="clear_kml"
+            android:summary="@string/clear_kml_summary"
+            android:title="@string/clear_kml_title"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="set_refresh"
+            android:summary="@string/set_refresh_summary"
+            android:title="@string/set_refresh_title"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="reset_refresh"
+            android:summary="@string/reset_refresh_summary"
+            android:title="@string/reset_refresh_title"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="relaunch"
+            android:summary="@string/relaunch_summary"
+            android:title="@string/relaunch_title"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="restart"
+            android:summary="@string/restart_summary"
+            android:title="@string/restart_title"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="shutdown"
+            android:summary="@string/shutdown_summary"
+            android:title="@string/shutdown_title"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="interaction_category"
+        android:title="Interaction"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:key="face"
+            android:summary="@string/facial_gestures_summary"
+            android:title="@string/facial_gestures_title"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="continuous_listen"
+            android:summaryOff="@string/voice_commands_summary_off"
+            android:summaryOn="@string/voice_commands_summary_on"
+            android:title="@string/voice_commands_title"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="general_category"
+        android:title="@string/appearance"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:entries="@array/map_styles"
+            android:entryValues="@array/map_styles"
+            android:key="map_style"
+            android:title="@string/map_style"
+            app:defaultValue="Blue"
+            app:iconSpaceReserved="false"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="other_category"
+        android:title="@string/other"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:key="about"
+            android:summary="@string/about_summary"
+            android:title="@string/about_title"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="opensource_license"
+            android:summary="@string/open_source_license_summary"
+            android:title="@string/open_source_license_title"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="privacy_policy"
+            android:summary="@string/privacy_policy_summary"
+            android:title="@string/privacy_policy_title"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="app_version"
+            android:summary="@string/app_version_summary"
+            android:title="@string/app_version_title"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

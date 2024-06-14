@@ -1,0 +1,132 @@
+<resources>
+    <!-- About Fragment -->
+    <string name="app_name">LG Motion</string>
+    <string name="dev_label">Developer</string>
+    <string name="dev_name">Sidharth Mudgil</string>
+    <string name="org_label">Organization</string>
+    <string name="org_name">Liquid Galaxy</string>
+    <string name="developer">Developer</string>
+    <string name="label_credits">Credits</string>
+
+    <!-- Navigation Menu -->
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="maps">Maps</string>
+
+    <!-- Root Preferences   -->
+    <string name="connection">Connection</string>
+    <string name="username">Username</string>
+    <string name="username_dialog_title">Liquid Galaxy Username</string>
+    <string name="password_title">Password</string>
+    <string name="password_dialog_title">Liquid Galaxy Password</string>
+    <string name="ip_address">IP Address</string>
+    <string name="ip_dialog_title">Liquid Galaxy IP Address</string>
+    <string name="port_number">Port Number</string>
+    <string name="port_dialog_title">Liquid Galaxy Port Number</string>
+    <string name="connection_method">Connection Method</string>
+    <string name="connection_method_summary_off">Automatically connect to the Liquid Galaxy</string>
+    <string name="connection_method_summary_on">Manually connect to the Liquid Galaxy</string>
+
+    <string name="liquid_galaxy">Liquid Galaxy</string>
+    <string name="connect_summary">Connect to Liquid Galaxy</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="disconnect_summary">Disconnect from Liquid Galaxy</string>
+    <string name="clear_kml_title">Clear KML</string>
+    <string name="clear_kml_summary">Remove KML data or overlays from display.</string>
+    <string name="total_screens_title">Total Screens</string>
+    <string name="total_screens_summary">Total number of screens in the Liquid Galaxy rig</string>
+    <string name="set_refresh_title">Set Refresh</string>
+    <string name="set_refresh_summary">Set the slaves refresh rate</string>
+    <string name="reset_refresh_title">Reset Refresh</string>
+    <string name="reset_refresh_summary">Reset the slaves refresh rate to default</string>
+    <string name="relaunch_title">Relaunch</string>
+    <string name="relaunch_summary">Relaunch the Liquid Galaxy application</string>
+    <string name="restart_title">Restart</string>
+    <string name="restart_summary">Restart the Liquid Galaxy application</string>
+    <string name="shutdown_title">Shutdown</string>
+    <string name="shutdown_summary">Shutdown the Liquid Galaxy application</string>
+
+    <string name="facial_gestures_title">Facial Gestures</string>
+    <string name="facial_gestures_summary">Adjust facial detection settings and bindings</string>
+    <string name="voice_commands_title">Voice Commands</string>
+    <string name="voice_commands_summary_on">Push to listen for voice commands</string>
+    <string name="voice_commands_summary_off">Continuously listen for voice commands</string>
+
+    <string name="appearance">Appearance</string>
+    <string name="map_style">Map Style</string>
+
+    <string name="other">Other</string>
+    <string name="about_title">About</string>
+    <string name="about_summary">App details and version information</string>
+    <string name="open_source_license_title">Open Source License</string>
+    <string name="open_source_license_summary">Terms of app source code usage</string>
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_policy_summary">Data collection and usage information</string>
+    <string name="app_version_title">App Version</string>
+    <string name="app_version_summary">Current app version installed</string>
+
+    <!-- Connection Dialog-->
+    <string name="connect">Connect</string>
+    <string name="cancel">Cancel</string>
+    <string name="connection_dialog_title">Liquid Galaxy Connection</string>
+    <string name="connection_dialog_message">This feature requires a connection to Liquid Galaxy to function properly</string>
+
+    <!-- Connection Status Card   -->
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+
+    <!-- Voice Commands   -->
+    <string name="stop">Stop</string>
+    <string name="fly_to">Fly to</string>
+    <string name="planet">Planet</string>
+    <string name="zoom_out">Zoom Out</string>
+    <string name="zoom_in">Zoom In</string>
+    <string name="rotate_right">Rotate Right</string>
+    <string name="rotate_left">Rotate Left</string>
+    <string name="move_west">Move West</string>
+    <string name="move_east">Move East</string>
+    <string name="move_south">Move South</string>
+    <string name="move_north">Move North</string>
+
+    <!-- Facial Gestures Preferences   -->
+    <string name="landmarker_title">Landmarker</string>
+    <string name="camera_preference_title">Camera Preference</string>
+    <string name="camera_summary_on">Use the device\'s front camera</string>
+    <string name="camera_summary_off">Use the device\'s back camera</string>
+    <string name="face_detection_confidence_title">Face Detection Confidence</string>
+    <string name="face_detection_confidence_summary">Minimum confidence for face detection</string>
+    <string name="face_tracking_confidence_title">Face Tracking Confidence</string>
+    <string name="face_tracking_confidence_summary">Minimum confidence for face tracking</string>
+    <string name="face_presence_confidence_title">Face Presence Confidence</string>
+    <string name="face_presence_confidence_summary">Minimum confidence for face presence</string>
+
+    <string name="movement_gestures_title">Movement Gestures</string>
+    <string name="move_north_gesture_title">Move North Gesture</string>
+    <string name="move_north_sensitivity_title">Move North Sensitivity</string>
+    <string name="move_north_sensitivity_summary">Adjust the sensitivity of the move north gesture</string>
+    <string name="move_south_gesture_title">Move South Gesture</string>
+    <string name="move_south_sensitivity_title">Move South Sensitivity</string>
+    <string name="move_south_sensitivity_summary">Adjust the sensitivity of the move south gesture</string>
+    <string name="move_east_gesture_title">Move East Gesture</string>
+    <string name="move_east_sensitivity_title">Move East Sensitivity</string>
+    <string name="move_east_sensitivity_summary">Adjust the sensitivity of the move east gesture</string>
+    <string name="move_west_gesture_title">Move West Gesture</string>
+    <string name="move_west_sensitivity_title">Move West Sensitivity</string>
+    <string name="move_west_sensitivity_summary">Adjust the sensitivity of the move west gesture</string>
+
+    <string name="rotation_gestures_title">Rotation Gestures</string>
+    <string name="rotate_left_gesture_title">Rotate Left Gesture</string>
+    <string name="rotate_left_sensitivity_title">Rotate Left Sensitivity</string>
+    <string name="rotate_left_sensitivity_summary">Adjust the sensitivity of the rotate left gesture</string>
+    <string name="rotate_right_gesture_title">Rotate Right Gesture</string>
+    <string name="rotate_right_sensitivity_title">Rotate Right Sensitivity</string>
+    <string name="rotate_right_sensitivity_summary">Adjust the sensitivity of the rotate right gesture</string>
+
+    <string name="zoom_in_gesture_title">Zoom In Gesture</string>
+    <string name="zoom_in_sensitivity_title">Zoom In Sensitivity</string>
+    <string name="zoom_in_sensitivity_summary">Adjust the sensitivity of the zoom out gesture</string>
+    <string name="zoom_out_gesture_title">Zoom Out Gesture</string>
+    <string name="zoom_out_sensitivity_title">Zoom Out Sensitivity</string>
+    <string name="zoom_out_sensitivity_summary">Adjust the sensitivity of the zoom out gesture</string>
+
+</resources>

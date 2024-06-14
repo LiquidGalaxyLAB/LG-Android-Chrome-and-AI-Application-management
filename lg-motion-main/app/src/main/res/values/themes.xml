@@ -1,0 +1,114 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Lgmotion" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/base_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/base_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/base_theme_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/base_theme_light_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/base_theme_light_secondary</item>
+        <item name="colorOnSecondary">@color/base_theme_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/base_theme_light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/base_theme_light_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/base_theme_light_tertiary</item>
+        <item name="colorOnTertiary">@color/base_theme_light_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/base_theme_light_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/base_theme_light_onTertiaryContainer</item>
+        <item name="colorError">@color/base_theme_light_error</item>
+        <item name="colorErrorContainer">@color/base_theme_light_errorContainer</item>
+        <item name="colorOnError">@color/base_theme_light_onError</item>
+        <item name="colorOnErrorContainer">@color/base_theme_light_onErrorContainer</item>
+        <item name="android:colorBackground">@color/base_theme_light_background</item>
+        <item name="colorOnBackground">@color/base_theme_light_onBackground</item>
+        <item name="colorSurface">@color/base_theme_light_surface</item>
+        <item name="colorOnSurface">@color/base_theme_light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/base_theme_light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/base_theme_light_onSurfaceVariant</item>
+        <item name="colorOutline">@color/base_theme_light_outline</item>
+        <item name="colorOnSurfaceInverse">@color/base_theme_light_inverseOnSurface</item>
+        <item name="colorSurfaceInverse">@color/base_theme_light_inverseSurface</item>
+        <item name="colorPrimaryInverse">@color/base_theme_light_inversePrimary</item>
+        <item name="fontFamily">@font/noto_sans</item>
+        <item name="android:statusBarColor">@color/base_theme_light_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- for BottomSheet & SideSheet Dialog -->
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.App.BottomSheetDialog</item>
+        <item name="sideSheetDialogTheme">@style/ThemeOverlay.App.SideSheetDialog</item>
+    </style>
+
+    <style name="ThemeOverlay.App.BottomSheetDialog" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="ThemeOverlay.App.SideSheetDialog" parent="ThemeOverlay.Material3.SideSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+
+    <style name="Theme.Lgmotion" parent="Base.Theme.Lgmotion">
+        <item name="circularProgressIndicatorStyle">@style/Widget.App.CircularProgressIndicator</item>
+        <item name="snackbarStyle">@style/Widget.App.Snackbar</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
+        <item name="switchStyle">@style/Widget.Material3.CompoundButton.MaterialSwitch</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.SplashScreen">
+        <item name="android:statusBarColor">@color/base_theme_light_background</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/img_face</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/base_theme_light_background</item>
+        <item name="windowSplashScreenBackground">@color/base_theme_light_background</item>
+        <item name="postSplashScreenTheme">@style/Theme.Lgmotion</item>
+    </style>
+
+    <style name="Widget.App.Snackbar" parent="Widget.Material3.Snackbar">
+        <item name="android:layout_margin">30dp</item>
+        <item name="actionTextColorAlpha">1</item>
+        <item name="shapeAppearance">@style/ShapeOverlayRoundedImageView</item>
+    </style>
+
+    <style name="Widget.App.CircularProgressIndicator" parent="Widget.Material3.CircularProgressIndicator">
+        <item name="trackThickness">20dp</item>
+    </style>
+
+    <style name="ThemeOverlay.App.MaterialAlertDialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorOnSurface">@color/base_theme_light_primary</item>
+        <item name="dialogCornerRadius">15dp</item>
+        <item name="backgroundTint">@color/base_theme_light_surface</item>
+        <item name="android:background">@color/base_theme_light_surface</item>
+    </style>
+
+    <style name="ShapeOverlayRoundedImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">15dp</item>
+    </style>
+
+    <style name="ConnectedStatusCardStyle">
+        <item name="cardCornerRadius">15dp</item>
+        <item name="cardBackgroundColor">@color/green_container</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <style name="ConnectedTextStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/green_onContainer</item>
+        <item name="android:textFontWeight">600</item>
+    </style>
+
+    <style name="DisconnectedStatusCardStyle">
+        <item name="cardCornerRadius">15dp</item>
+        <item name="cardBackgroundColor">@color/base_theme_light_errorContainer</item>
+        <item name="cardElevation">0dp</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <style name="DisconnectedTextStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/base_theme_light_onErrorContainer</item>
+        <item name="android:textFontWeight">600</item>
+    </style>
+
+</resources>
