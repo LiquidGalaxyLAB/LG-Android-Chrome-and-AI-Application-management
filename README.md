@@ -1,3 +1,4 @@
 # LG-Android-Chrome-and-AI-Application-management
 Oscar Pena
+
 This project aims to recode, test, and publish applications developed by contributors of the Liquid Galaxy community during the 2023-2024 period, including those created for GSoC Task 2 and the Flutter Kiss Contest. The primary objectives include reviewing and updating the existing applications, publishing them on the Play Store, and uploading them to GitHub for wider accessibility. Testing will be conducted against the Liquid Galaxy and the AI server for apps with Docker-based models. The methodology involves collecting the apps, testing them on tablets, and ensuring compliance before uploading to the Play Store and GitHub. The timeline includes research, preparation, bonding. The ultimate goal is to enhance accessibility and understanding of Liquid Galaxy applications for the community.
